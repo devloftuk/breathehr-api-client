@@ -11,6 +11,7 @@ use devloft\Breathe\Requests\Benefits;
 /**
  * @method Employees employees()
  * @method Benefits benefits()
+ * @method Bonuses bonuses()
  */
 class Breathe
 {
