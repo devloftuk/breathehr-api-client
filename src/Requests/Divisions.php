@@ -14,7 +14,7 @@ class Divisions extends Breathe
     protected $endpoint = 'divisions';
 
     /**
-     * List all bonuses.
+     * List all divisions.
      *
      * @param int $page
      * @param int $results

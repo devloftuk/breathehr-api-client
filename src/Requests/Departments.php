@@ -50,7 +50,7 @@ class Departments extends Breathe
     }
 
     /**
-     * List all absences for a given department,
+     * List all absences for a given department.
      *
      * @param bool $exclude_cancelled
      * @param int $page

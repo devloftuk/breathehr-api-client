@@ -11,6 +11,7 @@ use devloft\Breathe\Requests\Bonuses;
 use devloft\Breathe\Requests\ChangeRequests;
 use devloft\Breathe\Requests\Departments;
 use devloft\Breathe\Requests\Divisions;
+use devloft\Breathe\Requests\WorkingPatterns;
 
 /**
  * @method Employees employees()
@@ -19,6 +20,7 @@ use devloft\Breathe\Requests\Divisions;
  * @method ChangeRequests changeRequests()
  * @method Departments departments()
  * @method Divisions divisions()
+ * @method WorkingPatterns workingPatterns()
  */
 class Breathe
 {

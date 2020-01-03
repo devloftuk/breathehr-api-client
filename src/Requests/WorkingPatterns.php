@@ -5,16 +5,16 @@ namespace devloft\Breathe\Requests;
 use devloft\Breathe\Breathe;
 
 /**
- * Class ChangeRequests
+ * Class WorkingPatterns
  *
  * @package devloft\Breathe\Requests
  */
-class ChangeRequests extends Breathe
+class WorkingPatterns extends Breathe
 {
-    protected $endpoint = 'change_requests';
+    protected $endpoint = 'working_patterns';
 
     /**
-     * List all change requests.
+     * List all Working Patterns.
      *
      * @param int $page
      * @param int $results
