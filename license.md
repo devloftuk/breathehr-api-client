@@ -1,5 +1,5 @@
 # The license
 
-Copyright (c) author name <author email>
+Copyright (c) Samuel Loft sam@devloft.co.uk
 
 ...Add your license text here...

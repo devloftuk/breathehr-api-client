@@ -1,12 +1,12 @@
 {
     "name": "devloft/breathe",
-    "description": ":description",
-    "license": "license",
+    "description": "BreatheHR API Client for laravel",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Samuel Loft",
+            "email": "sam@scolmore.com",
+            "homepage": "https://devloft.co.uk"
         }
     ],
     "homepage": "https://github.com/devloft/breathe",
