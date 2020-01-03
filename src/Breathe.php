@@ -13,6 +13,7 @@ use devloft\Breathe\Requests\Departments;
 use devloft\Breathe\Requests\Divisions;
 use devloft\Breathe\Requests\WorkingPatterns;
 use devloft\Breathe\Requests\StatutoryHolidayCountries;
+use devloft\Breathe\Requests\Sicknesses;
 
 /**
  * @method Employees employees()
@@ -23,6 +24,7 @@ use devloft\Breathe\Requests\StatutoryHolidayCountries;
  * @method Divisions divisions()
  * @method WorkingPatterns workingPatterns()
  * @method StatutoryHolidayCountries statutoryHolidayCountries()
+ * @method Sicknesses sickness()
  */
 class Breathe
 {
