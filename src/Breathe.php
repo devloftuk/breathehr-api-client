@@ -17,6 +17,8 @@ use devloft\Breathe\Requests\Sicknesses;
 use devloft\Breathe\Requests\Salaries;
 use devloft\Breathe\Requests\OtherLeaveReasons;
 use devloft\Breathe\Requests\Locations;
+use devloft\Breathe\Requests\LeaveRequests;
+use devloft\Breathe\Requests\HolidayAllowances;
 
 /**
  * @method Employees employees()
@@ -31,6 +33,8 @@ use devloft\Breathe\Requests\Locations;
  * @method Salaries salaries()
  * @method OtherLeaveReasons otherLeaveReasons()
  * @method Locations locations()
+ * @method LeaveRequests leaveRequests()
+ * @method HolidayAllowances holidayAllowances()
  */
 class Breathe
 {
