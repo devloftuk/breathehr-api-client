@@ -21,6 +21,7 @@ use devloft\Breathe\Requests\LeaveRequests;
 use devloft\Breathe\Requests\HolidayAllowances;
 use devloft\Breathe\Requests\EmployeeTrainingCourses;
 use devloft\Breathe\Requests\Absences;
+use devloft\Breathe\Requests\EmployeeExpenseClaims;
 
 /**
  * @method Employees employees()
@@ -39,6 +40,7 @@ use devloft\Breathe\Requests\Absences;
  * @method HolidayAllowances holidayAllowances()
  * @method EmployeeTrainingCourses employeeTrainingCourses()
  * @method Absences absences()
+ * @method EmployeeExpenseClaims employeeExpenseClaims()
  */
 class Breathe
 {
