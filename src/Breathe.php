@@ -7,11 +7,18 @@ use Illuminate\Support\Facades\Config;
 use devloft\Breathe\Exceptions\TokenException;
 use devloft\Breathe\Requests\Employees;
 use devloft\Breathe\Requests\Benefits;
+use devloft\Breathe\Requests\Bonuses;
+use devloft\Breathe\Requests\ChangeRequests;
+use devloft\Breathe\Requests\Departments;
+use devloft\Breathe\Requests\Divisions;
 
 /**
  * @method Employees employees()
  * @method Benefits benefits()
  * @method Bonuses bonuses()
+ * @method ChangeRequests changeRequests()
+ * @method Departments departments()
+ * @method Divisions divisions()
  */
 class Breathe
 {
