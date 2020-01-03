@@ -1,0 +1,43 @@
+{
+    "name": "devloft/breathe",
+    "description": ":description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "author name",
+            "email": "author email",
+            "homepage": "author homepage"
+        }
+    ],
+    "homepage": "https://github.com/devloft/breathe",
+    "keywords": ["Laravel", "Breathe"],
+    "require": {
+        "illuminate/support": "~5|~6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "devloft\\Breathe\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "devloft\\Breathe\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "devloft\\Breathe\\BreatheServiceProvider"
+            ],
+            "aliases": {
+                "Breathe": "devloft\\Breathe\\Facades\\Breathe"
+            }
+        }
+    }
+}
